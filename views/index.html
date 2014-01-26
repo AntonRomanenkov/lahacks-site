@@ -20,6 +20,15 @@
 </head>
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=224564894267150";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <!-- Navbar -->
 	<div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -62,18 +71,49 @@
 	<div class="main-container">
 		<div class="container-fluid" id="intro">	
 			<div class="containerIntro">
-			<div class = "thumbnail">
-			<img alt="" src="img/mainLogoUpdated.png">
-			</div>
+				<div class = "thumbnail">
+					<img alt="" src="img/mainLogoUpdated.png">
+				</div>
 				<div class="row span6 center">
-						<h1> <br> April 2014 </br><br> UCLA in Los Angeles, CA </br></h1>
-						<!--<a href="sponsor" class="btn btn-xlarge">Sign Up</a>-->
-				</div>		
+						<h1> <br> April 2014 | UCLA </br></h1>
+				</div>
+				
+				
+						<!-- Begin MailChimp Signup Form -->
+						<!--
+				<div id="mc_embed_signup">
+					<form action="http://lahacks.us3.list-manage2.com/subscribe/post?u=0590e2c24105c15c28627f758&amp;id=35c4a20ecd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<div class="span3 offset4">
+							<input type="email" placeholder="Email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+						</div>
+						<div class="clear">
+							<input type="submit" value="Sign Up" name="sign up" id="mc-embedded-subscribe" class="button">
+						</div>
+						<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    							
+						<div style="position: absolute; left: -5000px;">
+							<input type="text" name="b_0590e2c24105c15c28627f758_35c4a20ecd" value="">
+						</div>
+					</form>
+				</div>
+				-->
+				<div class="span 5 center">
+					
+						<input type="email" placeholder="Email" value="" name="EMAIL" class="signForm" id="">
+					
+						<input type="button" value="Sign Up" name="sign up" class="signUpButton" id="">
+					
+				</div>
 			</div>
+		</div>
 	</div>
+	
     <!-- ends Intro -->
-    
-    
+    <div class="span3 center">
+    <div class="fb-like" data-href="https://www.facebook.com/LAHacks" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+    </div>
      <!-- #about -->
 <div class="container-fluid" id="about">
 		<div class="container light">
@@ -333,5 +373,7 @@ $(function () {
             
 });
 </script>
+
+<!--End mc_embed_signup-->
 </body>
 </html>
