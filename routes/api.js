@@ -12,11 +12,8 @@ exports.subscribe = function(req, res){
       console.log('success');
     },
     function(error) {
-      if (error.error) {
-        //req.session.error_flash = error.code + ": " + error.error;
-      } else {
-        //req.session.error_flash = 'There was an error subscribing that user';
-      }
+      res.contentType('json');
+      res.send({ some: JSON.stringify({response:error.error}) });
       console.log(error);
     });
 };
