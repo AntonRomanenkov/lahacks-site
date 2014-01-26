@@ -42,7 +42,7 @@ if (app.get('env') === 'production') {
 }; 
 
 //mailchimp stuff
-app.get('/subscribe', api.subscribe);
+app.post('/subscribe', api.subscribe);
 
 // redirect all routes to index
 app.get('*', routes.index);
