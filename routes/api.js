@@ -9,11 +9,9 @@ exports.subscribe = function(req, res){
   mc.lists.subscribe({id: list_id, email:{email:req.body.email}}, function(data) {
       res.contentType('json');
       res.send({ some: JSON.stringify({response:'success'}) });
-      console.log('success');
     },
     function(error) {
       res.contentType('json');
       res.send({ some: JSON.stringify({response:error.error}) });
-      console.log(error);
     });
 };

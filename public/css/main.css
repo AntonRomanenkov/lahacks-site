@@ -10,7 +10,6 @@ body {
 }
 
 a, a:visited{color:#d54872;
-	
 	-webkit-transition:all .1s linear;
 	-moz-transition:all .1s linear;
 	-ms-transition:all .1s linear;
@@ -52,6 +51,7 @@ h3 {
 	line-height:50px;
 	text-shadow:0 1px 1px rgba(0,0,0,0.6);
 	margin-bottom:30px;
+	color: white;
 }
 
 .dark {
