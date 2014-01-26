@@ -13,6 +13,7 @@ var express = require('express'),
 
 
 var app = module.exports = express();
+
 var mc = new mcapi.Mailchimp(require('./config').MC_API_KEY());
 
 /**
@@ -41,7 +42,7 @@ if (app.get('env') === 'production') {
 }; 
 
 //mailchimp stuff
-app.post('/subscribe', api.subscribe);
+app.get('/subscribe', api.subscribe);
 
 // redirect all routes to index
 app.get('*', routes.index);
