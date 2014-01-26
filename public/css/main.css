@@ -431,7 +431,7 @@ h3 {
 		display:block;
 		width:240px;
 		height:120px;
-		
+		padding-left: 50px;
 		background-position:center center;
 		float:left;
 		background-size:contain;
@@ -439,6 +439,7 @@ h3 {
 		
 
 	}
+	
 	}
 @media (min-width: 767px) {
 		.sponsor {
