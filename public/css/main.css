@@ -527,16 +527,17 @@ h3 {
 		padding: 9px 16px;
 		-moz-border-radius: 3px;
 		-webkit-border-radius: 3px;
-		background: rgba(255,255,255, .3);
+		background: rgba(255, 255, 255, 0.38);
 		border: none;
 		width: 79%;
 		border: 1px solid rgba(255,255,255, .5);
-		color: #fff;
+		color: black;
+		
 	}
 	.signUpButton {
 		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 13px;
-		background: #ef3e36;
+		background: rgba(0,0,0,0.69);
 		color: #fff;
 		cursor: pointer;
 		padding: 10px 16px;
