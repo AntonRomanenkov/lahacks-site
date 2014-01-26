@@ -121,7 +121,7 @@ h3 {
 
 .navbar-fixed-top {
 	margin-bottom:0;
-	border-top: 4px solid #f3f3f3;
+	border-top: 0px solid #f3f3f3;
 	position: fixed;
 }
 
@@ -135,7 +135,7 @@ h3 {
 	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.5);
 	box-shadow:0 1px 2px rgba(0,0,0,0.5);
 	filter:none;
-	padding:8px 0 30px;
+	padding:8px 0 15px;
 	background:#0d0d0d;
 	background:rgba(13,13,13,0.9);
 }
@@ -144,7 +144,7 @@ h3 {
 	font-size:19px;
 	font-weight: 300;
 	text-shadow:none;
-	padding:20px 0 0;
+	padding:12px 0 0;
 	font-family: raleway;
 	color: #fff!important;
 	padding-left: 40px;
@@ -156,7 +156,7 @@ h3 {
 
 .navbar .nav > li > a {
 	font-family: raleway;
-	padding:20px 20px;
+	padding:10px 20px;
 	color:#F8F8F8;
 	font-size:15px;
 	font-weight:300;
@@ -431,7 +431,6 @@ h3 {
 		width:240px;
 		height:120px;
 		
-		
 		background-position:center center;
 		float:left;
 		background-size:contain;
@@ -533,6 +532,7 @@ h3 {
 		width: 79%;
 		border: 2px solid rgba(255,255,255, .5);
 		color: black;
+		
 		
 	}
 	.signUpButton {
