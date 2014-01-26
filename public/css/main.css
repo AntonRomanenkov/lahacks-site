@@ -553,5 +553,7 @@ h3 {
 	}
 	.fbclass{
 		padding-top: 0px;
-		
+	}
+	#signup-container {
+		text-align: center;
 	}

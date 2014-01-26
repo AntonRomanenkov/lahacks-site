@@ -21,7 +21,7 @@ var mc = new mcapi.Mailchimp(require('./config').MC_API_KEY());
 */
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 app.set('views', __dirname + '/views');
 app.engine('html', engines.mustache);
 app.set('view engine', 'html');
