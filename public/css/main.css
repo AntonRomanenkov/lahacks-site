@@ -96,6 +96,7 @@ h3 {
 }
 
 #about {
+	padding-top: 20px;
 	background:#fff;
 }
 #about p {
@@ -530,14 +531,14 @@ h3 {
 		background: rgba(255, 255, 255, 0.38);
 		border: none;
 		width: 79%;
-		border: 1px solid rgba(255,255,255, .5);
+		border: 2px solid rgba(255,255,255, .5);
 		color: black;
 		
 	}
 	.signUpButton {
 		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 13px;
-		background: rgba(0,0,0,0.69);
+		background: rgba(0,0,0,0.75);
 		color: #fff;
 		cursor: pointer;
 		padding: 10px 16px;
@@ -546,4 +547,7 @@ h3 {
 		border: none;
 		-webkit-appearance: none;
 		-moz-appearance: none;
+	}
+	.fbclass{
+		padding-top: 10px;
 	}
