@@ -561,7 +561,7 @@ h3 {
     -webkit-border-radius: 3px;
     background: rgba(255, 255, 255, 0.65);
     
-    width: 95%;
+    width: 100%;
     border: 2px solid rgba(255,255,255, .75);
     color: black;
     margin: 10px 0px;
@@ -583,6 +583,7 @@ h3 {
 }
 .fbclass{
     padding-top: 0px;
+    padding-left: 50px;
 }
 #signup-container, #signup-finished {
     text-align: center;
