@@ -554,13 +554,12 @@ h3 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 13px;
     background: rgba(0,0,0,0.83);
-    border: 2px solid rgba(0,0,0, .85);
+    border: 2px solid white;
     color: #fff;
     cursor: pointer;
     padding: 10px 16px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    border: none;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
