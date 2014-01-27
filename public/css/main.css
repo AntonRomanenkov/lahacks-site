@@ -549,6 +549,7 @@ h3 {
     width: 79%;
     border: 2px solid rgba(255,255,255, .75);
     color: black;
+    margin: 10px 0px;
 }
 .signUpButton {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -562,6 +563,7 @@ h3 {
     -webkit-border-radius: 3px;
     -webkit-appearance: none;
     -moz-appearance: none;
+    margin:10px 0px;
 }
 .fbclass{
     padding-top: 0px;
