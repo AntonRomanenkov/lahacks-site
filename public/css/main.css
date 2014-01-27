@@ -1,6 +1,20 @@
 
 /* Setup Styles  */
 
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+        color:    #000000;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:    #000000;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:    #000000;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:    #000000;
+}
+
 body {
 	/*Change the background image here  */
 	background: url('../img/pauley.jpg') #000 fixed no-repeat;
@@ -440,11 +454,8 @@ h3 {
 		float:left;
 		background-size:contain;
 		background-repeat:no-repeat;
-		
-
 	}
-	
-	}
+}
 @media (min-width: 767px) {
 		.sponsor {
 		display:block;
@@ -455,112 +466,111 @@ h3 {
 		float:left;
 		background-size:contain;
 		background-repeat:no-repeat;
-		
 		}
-	}
-		.sponsor.minor {
-		display:block;
-		width:240px;
-		height:120px;
-		background-position:center center;
-		float:left;
-		background-size:contain;
-		background-repeat:no-repeat;
-		-webkit-filter:grayscale(100%);
-		opacity:.7;
+}
+    .sponsor.minor {
+    display:block;
+    width:240px;
+    height:120px;
+    background-position:center center;
+    float:left;
+    background-size:contain;
+    background-repeat:no-repeat;
+    -webkit-filter:grayscale(100%);
+    opacity:.7;
 /*		-webkit-transition: -webkit-filter .5s;
 */		transition: -webkit-filter, opacity .5s;
-	}
-		.sponsor.major {
-		display:block;
-		width:240px;
-		height:120px;
-		background-position:center center;
-		float:left;
-		background-size:contain;
-		background-repeat:no-repeat;
-	}
-	
-	.sponsor.big-sponsor {
-		width:485px;
-		height:200px;
-		margin: 0px 50px;
-	}
-
-	.sponsor:hover {
-		opacity:1;
-		-webkit-filter:grayscale(0%);
-	}
-
-	#mh-mp {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	#mh-mp > .sponsor {
-		display: inline-block;
-		float: none;
-	}
-	
-	.sponsor.big-sponsor {
-		width:485px;
-		height:200px;
-		margin: 0px 50px;
-	}
-
-	.sponsor:hover {
-		opacity:1;
-		-webkit-filter:grayscale(0%);
-	}
-
-	#mh-mp {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	#mh-mp > .sponsor {
-		display: inline-block;
-		float: none;
-	}
-	
-	/* SIGN UP FORM */
-	
-	.signForm {
-		font-family: raleway;
-		font-size: 17px;
-		padding: 9px 16px;
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-		background: rgba(255, 255, 255, 0.65);
-		
-		width: 79%;
-		border: 2px solid rgba(255,255,255, .75);
-		color: black;
-	}
-	.signUpButton {
-		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-		font-size: 13px;
-		background: rgba(0,0,0,0.83);
-		border: 2px solid rgba(0,0,0, .85);
-		color: #fff;
-		cursor: pointer;
-		padding: 10px 16px;
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-		border: none;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-	}
-	.fbclass{
-		padding-top: 0px;
-	}
-	#signup-container, #signup-finished {
-		text-align: center;
-	}
-    #signup-finished h3 {
-        color: white;
     }
 
+    .sponsor.major {
+    display:block;
+    width:240px;
+    height:120px;
+    background-position:center center;
+    float:left;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.sponsor.big-sponsor {
+    width:485px;
+    height:200px;
+    margin: 0px 50px;
+}
+
+.sponsor:hover {
+    opacity:1;
+    -webkit-filter:grayscale(0%);
+}
+
+#mh-mp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mh-mp > .sponsor {
+    display: inline-block;
+    float: none;
+}
+
+.sponsor.big-sponsor {
+    width:485px;
+    height:200px;
+    margin: 0px 50px;
+}
+
+.sponsor:hover {
+    opacity:1;
+    -webkit-filter:grayscale(0%);
+}
+
+#mh-mp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mh-mp > .sponsor {
+    display: inline-block;
+    float: none;
+}
+
+/* SIGN UP FORM */
+
+.signForm {
+    font-family: raleway;
+    font-size: 17px;
+    padding: 9px 16px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: rgba(255, 255, 255, 0.65);
+    
+    width: 79%;
+    border: 2px solid rgba(255,255,255, .75);
+    color: black;
+}
+.signUpButton {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    background: rgba(0,0,0,0.83);
+    border: 2px solid rgba(0,0,0, .85);
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 16px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.fbclass{
+    padding-top: 0px;
+}
+#signup-container, #signup-finished {
+    text-align: center;
+}
+#signup-finished h3 {
+    color: white;
+}
 
