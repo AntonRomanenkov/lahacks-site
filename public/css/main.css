@@ -256,6 +256,11 @@ h3 {
 	-webkit-box-shadow:none;
 }
 
+.thumbnail h3 {
+    line-height: 1.2em;
+    margin: 0.5em auto;
+}
+
 @media (max-width: 979px) {
 
 	.nav-collapse .nav > li > a:hover,.nav-collapse .dropdown-menu a:hover {
@@ -533,8 +538,6 @@ h3 {
 		width: 79%;
 		border: 2px solid rgba(255,255,255, .75);
 		color: black;
-		
-		
 	}
 	.signUpButton {
 		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -559,3 +562,5 @@ h3 {
     #signup-finished h3 {
         color: white;
     }
+
+
