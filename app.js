@@ -14,7 +14,7 @@ var express = require('express'),
 
 var app = module.exports = express();
 
-var mc = new mcapi.Mailchimp(require('./config').MC_API_KEY());
+var mc = new mcapi.Mailchimp(process.env.MAILCHIMP_API_KEY);
 
 /**
 * Configuration
