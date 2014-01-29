@@ -364,16 +364,16 @@ $(function () {
 
 	    	    
     // For the purpose of the demo this allows you to toggle the background between video and img
-    $('.toggle_video').click(function(){
+    // $('.toggle_video').click(function(){
 	    
-	   $('#big-video-wrap').fadeToggle();
-	   return false; 
+	   // $('#big-video-wrap').fadeToggle();
+	   // return false; 
 	    
-    });
+    // });
     
 	// BigVideo Setup
-    var BV = new $.BigVideo({useFlashForFirefox:false});
-	BV.init();
+    //var BV = new $.BigVideo({useFlashForFirefox:false});
+	//BV.init();
     if (Modernizr.touch) {
     	// fallback image for mobile devices
         BV.show('http://s3-us-west-1.amazonaws.com/lahacks/bg2.jpg');
