@@ -17,7 +17,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 
 body {
 	/*Change the background image here  */
-	background: url('../img/pauley.jpg') #000 fixed no-repeat;
+	background: url('http://s3-us-west-1.amazonaws.com/lahacks/pauley.jpg') #000 fixed no-repeat;
 	background-color: black;
 	background-size:cover;
 	font-family:raleway;
