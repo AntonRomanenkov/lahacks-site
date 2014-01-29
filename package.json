@@ -9,4 +9,7 @@
 		"mustache": "~0.8.1",
 		"mailchimp-api": "~2.0.4"
 	}
+    "engines": {
+        "node": "0.10.x"
+    }
 }
