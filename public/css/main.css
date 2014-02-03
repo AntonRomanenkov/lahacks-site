@@ -19,7 +19,7 @@ body {
 	/*Change the background image here  */
 	background: url('http://s3-us-west-1.amazonaws.com/lahacks/griffBlur.jpg') #000 fixed no-repeat;
 	background-color: black;
-	background-size:cover;
+	background-size:100%;
 	font-family:raleway;
 }
 
