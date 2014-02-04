@@ -1,4 +1,4 @@
-
+/* comment */
 /**
  * Module dependencies
  */
