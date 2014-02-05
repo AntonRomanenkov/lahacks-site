@@ -323,6 +323,8 @@ img {
 	display:block;
 }
 .hero-btn {
+	height:30px;
+	width:30px;
 	background:transparent;
 	color:#FFFFFF;
 	border:2px solid rgba(255, 255, 255, 0.15);
@@ -799,7 +801,7 @@ img {
 	text-align:center;
 }
 .social-link {
-	margin-bottom:40px;
+	margin-bottom:0px;
 	display:block;
 }
 .js .social-link {
@@ -830,7 +832,9 @@ img {
 .social-icon i {	
 	line-height:100px;
 }
-.social-title,
+.social-title{
+	color:white;
+}
 .social-info {
 	display:block;
 }
