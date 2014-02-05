@@ -828,11 +828,12 @@ img {
 }
 .social-icon {
 	display:block;
-	width:100px;
-	height:100px;
+	width:75px;
+	height:75px;
 	line-height:100px;
 	text-align:center;
 	margin:0 auto 20px auto;
+	margin-bottom: 20px;
 	background:rgba(255, 255, 255, 0.15);
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
@@ -843,7 +844,7 @@ img {
 			transition:0.2s background linear;
 }
 .social-icon i {	
-	line-height:100px;
+	line-height:50px;
 }
 .social-title{
 	color:white;
