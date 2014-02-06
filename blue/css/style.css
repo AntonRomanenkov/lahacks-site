@@ -39,8 +39,8 @@
 	font-size:18px;
 	letter-spacing:1px;
 	margin-bottom:10px;
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
 	text-align:center;
 	margin:0 auto;
 	text-transform:uppercase;
@@ -319,6 +319,11 @@ img {
 	color:#FFFFFF;
 	padding-top:20px;
 }
+
+.hero-logo {
+
+}
+
 .hero-description {
 	color:#FFFFFF;
 	font-size:18px;
@@ -1233,6 +1238,25 @@ textarea:focus {
 .hero-title-holder {
 	background-image: none !important;
 }	
+
+.hero-logo {
+	max-height:250px;	
+}
+
+.lahacks-description {
+	color:#FFFFFF;
+	font-size:12px;
+	letter-spacing:1px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	margin:0 auto;
+	text-transform:uppercase;
+	display:block;
+	text-rendering: optimizelegibility;
+}
+
 .hero-description {
 	display:none;
 }
