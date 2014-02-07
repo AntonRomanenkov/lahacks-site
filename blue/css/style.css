@@ -924,22 +924,22 @@ img {
 .parallax-background.fixed {
 	background-attachment: fixed !important;
 }
-.parallax-banner-1 { background:url('../images/pauley_crowd.jpg'); background-position: center center; }
-.parallax-banner-2 { background:url('../images/pauley.jpg'); background-position: center center; }
-.parallax-banner-3 { background:url('../images/parallax-banner-3.jpg'); }
-.parallax-banner-4 { background:url('../images/parallax-banner-4.jpg'); background-position:center bottom !important; }
-.parallax-banner-5 { background:url('../images/pauley_outside.jpg'); }
-.parallax-banner-6 { background:url('../images/pauley.jpg'); }
-.parallax-banner-7 { background:url('../images/404.jpg'); }
+.parallax-banner-1 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley_crowd.jpg'); background-position: center center; }
+.parallax-banner-2 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley.jpg'); background-position: center center; }
+.parallax-banner-3 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/parallax-banner-3.jpg'); }
+.parallax-banner-4 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/parallax-banner-4.jpg'); background-position:center bottom !important; }
+.parallax-banner-5 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley_outside.jpg'); }
+.parallax-banner-6 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley.jpg'); }
+.parallax-banner-7 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/404.jpg'); }
 
 
-.parallax-overlay-1 { background-image: url('../images/overlay-pattern.png'); }
-.parallax-overlay-2 { background-image: url('../images/overlay-pattern.png'); }
-.parallax-overlay-3 { background-image: url('../images/overlay-pattern.png'); }
-.parallax-overlay-4 { background-image: url('../images/overlay-pattern.png'); }
-.parallax-overlay-5 { background-image: url('../images/overlay-pattern.png'); }
-.parallax-overlay-6 { background-image: url('../images/overlay-pattern.png'); }
-.parallax-overlay-7 { background-image: url('../images/overlay-pattern.png'); }
+.parallax-overlay-1 { background-image: url('http://s3-us-west-1.amazonaws.com/lahacks/overlay-pattern.png'); }
+.parallax-overlay-2 { background-image: url('http://s3-us-west-1.amazonaws.com/lahacks/overlay-pattern.png'); }
+.parallax-overlay-3 { background-image: url('http://s3-us-west-1.amazonaws.com/lahacks/overlay-pattern.png'); }
+.parallax-overlay-4 { background-image: url('http://s3-us-west-1.amazonaws.com/lahacks/overlay-pattern.png'); }
+.parallax-overlay-5 { background-image: url('http://s3-us-west-1.amazonaws.com/lahacks/overlay-pattern.png'); }
+.parallax-overlay-6 { background-image: url('http://s3-us-west-1.amazonaws.com/lahacks/overlay-pattern.png'); }
+.parallax-overlay-7 { background-image: url('http://s3-us-west-1.amazonaws.com/lahacks/overlay-pattern.png'); }
 
 .parallax-overlay {
 	position:absolute;
