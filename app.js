@@ -8,13 +8,9 @@ var express = require('express'),
   api = require('./routes/api'),
   http = require('http'),
   path = require('path'),
-  engines = require('consolidate'),
-  mcapi = require('mailchimp-api')
-
+  engines = require('consolidate');
 
 var app = module.exports = express();
-
-var mc = new mcapi.Mailchimp(process.env.MAILCHIMP_API_KEY);
 
 /**
 * Configuration
@@ -43,6 +39,7 @@ if (app.get('env') === 'production') {
 
 //mailchimp stuff
 app.post('/subscribe', api.subscribe);
+app.post('/mail', api.mail);
 
 // redirect all routes to index
 app.get('*', routes.index);
