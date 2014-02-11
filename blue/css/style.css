@@ -343,7 +343,7 @@ img {
 .hero-btn {
 	height:30px;
 	width:30px;
-	background:transparent;
+	background:rgba(255, 255, 255, 0.25);
 	color:#FFFFFF;
 	border:2px solid rgba(255, 255, 255, 0.15);
 	padding:10px 15px;
@@ -360,7 +360,7 @@ img {
 }
 .hero-btn:hover {
 	color:#FFFFFF;
-	background:rgba(255, 255, 255, 0.15);
+	background:rgba(255, 255, 255, .35);
 }
 .hero-poster-image {
 	background:url('../images/parallax-banner-1.jpg');
@@ -833,13 +833,13 @@ img {
 }
 .social-icon {
 	display:block;
-	width:75px;
-	height:75px;
-	line-height:100px;
+	width:60px;
+	height:60px;
+	line-height:80px;
 	text-align:center;
-	margin:0 auto 20px auto;
-	margin-bottom: 20px;
-	background:rgba(255, 255, 255, 0.15);
+	margin:0 auto 10px auto;
+	margin-bottom: 10px;
+	background:rgba(255, 255, 255, 0.25);
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
 	border-radius:50%;
@@ -1142,7 +1142,7 @@ textarea {
 		-moz-background-clip: padding;
 			background-clip: padding-box;
 	background:rgb(0, 0, 0);
-	background:rgba(0, 0, 0, 0.50);
+	/* background:rgba(0, 0, 0, 0.50); */
 	-webkit-border-radius:0;
 		-moz-border-radius:0;
 			border-radius: 0;
