@@ -12,7 +12,7 @@
 			$("#signup-container").hide();
             $("#signup-finished ").removeClass('hidden').hide().fadeIn('slow', null);
 	        $.post($(this).attr('action'), $(this).serialize(), function(res){
-	        	console.log(res);
+	        	//console.log(res);
 	        });
 	        return false; // prevent default action
     	});
@@ -316,44 +316,29 @@
 				
 			});
 			
-			var processor = "contact.php",
-				str = $(this).serialize();
-			
 			$("#contact-form .success-message, #contact-form .alert-message, #contact-form .error-message ").hide();
 			
-			$.ajax({
-				   
-			   type: "POST",
-			   url: processor,
-			   data: str,
-			   success: function(data) {
-				   	
-					$("#contact-form").append('<span class="feedback"></span>');
-				    				   
-					if(data === 'OK') {
-					
-						$("#contact-form .success-message").fadeIn();
-						$("#contact-form").each(function(){
-							this.reset();
-						});
-					  
-					} else if (data === 'ERROR') {
-					
-						$("#contact-form .error-message").fadeIn();
-					
-					} else {
-						
-						$("#contact-form .alert-message").fadeIn().html( data );
-						
-					}
-				   
-			   }
-				   
-			});
+
+	        $.post($(this).attr('action'), $(this).serialize(), function(res){
+				$("#contact-form").append('<span class="feedback"></span>');
+
+				if (res === 'ERROR') {
+					$("#contact-form .error-message").fadeIn();
+				} else if (res === 'OK') {
+					$("#contact-form .success-message").fadeIn();
+					$("#contact-form").each(function(){
+						this.reset();
+					});
+				} else {
+					$("#contact-form .alert-message").fadeIn().html( res );
+				}
+	        });
+
 		
 			return false;
 			
 		});
+		
 		
 		
 		/* Milestone Counter
