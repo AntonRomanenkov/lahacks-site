@@ -833,9 +833,9 @@ img {
 }
 .social-icon {
 	display:block;
-	width:60px;
-	height:60px;
-	line-height:80px;
+	width:40px;
+	height:40px;
+	line-height:54px;
 	text-align:center;
 	margin:0 auto 10px auto;
 	margin-bottom: 10px;
@@ -849,7 +849,7 @@ img {
 			transition:0.2s background linear;
 }
 .social-icon i {	
-	line-height:50px;
+	line-height:30px;
 }
 .social-title{
 	color:white;
