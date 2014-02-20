@@ -70,7 +70,7 @@ body {
 	z-index:500;
 }
 .content-section {
-	padding-top:150px;
+	padding-top:50px;
 	padding-bottom:130px;
 	background:#FFFFFF;
 }
@@ -490,6 +490,8 @@ img {
 	max-height:100%;
 	display:block;
 	margin:auto;
+    opacity:.7;
+		transition: -webkit-filter, opacity .5s;		
 }
 
 .member-photo:hover {
