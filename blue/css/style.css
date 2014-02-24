@@ -1,7 +1,5 @@
 /*
-* Brooklyn 1.3.6
-* Copyright 2013, UNITED THEMES
-* www.unitedthemes.com
+LA HACKS ~ Brandon Foo and Yoav Zimmerman
 */
 
 /* Table of Content
@@ -147,6 +145,10 @@ img {
 
 /* #Header Section
 ================================================== */
+
+#coinbase_button_iframe_3f3bb52aac416ab1bcd7a0174867f893 {
+	vertical-align: middle;
+}
 
 #header-section {
 	line-height:80px;
@@ -321,7 +323,7 @@ img {
 }
 
 .hero-logo {
-
+	width: 250px;
 }
 
 .hero-description {
