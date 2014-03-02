@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+=======================================================================================
+LA HACKS - Brandon Foo, Yoav Zimmerman 
+=======================================================================================
+-->
+
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>LA HACKS | The Hackathon of the West Coast</title>
+	<meta name="description" content="LA HACKS | The Hackathon of the West Coast">
+	<meta name="author" content="Brandon Foo">
+
+    <!-- Facebook Meta Tags
+  ================================================== -->
+    <meta property="og:image" content="https://s3-us-west-1.amazonaws.com/lahacks/mainLogoUpdated.png"/>
+    <meta property="og:title" content="LA Hacks"/>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/reset.css" media="all">
+    <link rel="stylesheet" href="css/ut-fontface.css" media="all">
+    <link rel="stylesheet" href="css/font-awesome.css" media="all">
+	<link rel="stylesheet" href="css/flexslider.css" media="all">
+    <link rel="stylesheet" href="css/magnific-popup.css" media="all">
+    <link rel="stylesheet" href="css/ut-responsive-grid.css" media="all">
+    <link rel="stylesheet" href="css/color.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Load jQuery
+  	================================================== -->
+  	<script src="js/jquery.min.js"></script>
+	<script src="js/modernizr.js"></script>
+    <script src="js/device.min.js"></script>
+
+</head>
+
+<body id="mainsite">
+	
+    <a id="top"></a>
+    
+	<!-- Page Layout
+	================================================== -->
+    
+     <!-- header section -->
+	<header id="header-section" class="ha-header ha-header-hide">
+    	<div class="grid-container">
+				<div class="ha-header-perspective">
+					<div class="ha-header-front">
+                    <div class="grid-20 tablet-grid-20 hide-on-mobile">
+						<h1 class="logo"><a href="#top"><img src="http://s3-us-west-1.amazonaws.com/lahacks/mainLogoUpdated.png" alt="logo"></a></h1>
+                        </div>
+						<nav id="ut-navigation" class="grid-80 tablet-grid-80 hide-on-mobile">
+                        	<a class="selected" href="#top">Home</a>
+                            <a href="#team-section">Sponsors</a>							
+                            <a href="#about-section">About</a>
+                            <a href="#contact-section">Contact</a>
+                            <li class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/LAHacks" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=224564894267150&amp;href=https%3A%2F%2Fwww.facebook.com%2FLAHacks&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false" style="display:inline-block; margin-left:20px"><span style="vertical-align: bottom; width: 123px; height: 20px;">
+                                <!-- FB iframe -->
+                                <iframe name="f22eeed30c" width="100px" height="1000px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/plugins/like.php?action=like&amp;app_id=224564894267150&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D40%23cb%3Df235ab45ac%26domain%3Dwww.lahacks.com%26origin%3Dhttp%253A%252F%252Fwww.lahacks.com%252Ff1f86d741%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2FLAHacks&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false" style="border: none; visibility: visible; width: 123px; height: 20px;" class=""></iframe></span>
+                                <!-- Twitter iframe -->
+                                <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.1390956745.html#_=1391708010263&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=LAHacks&amp;show_count=false&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 119px; height: 20px;"></iframe>
+                            </li>
+                            <!-- BTC button -->
+                            <li class="fb-like fb_iframe-widget" style="padding-bottom:0px; display:inline-block">
+                                <p style="margin-bottom:0px">
+                                    <a class="coinbase-button" data-code="d12ab3a8a6eecd010deb6ffea46d8d27" data-button-style="donation_small" href="https://coinbase.com/checkouts/d12ab3a8a6eecd010deb6ffea46d8d27">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+                                </p>
+                            </li>
+						</nav>
+					</div>
+				</div><!-- close .ha-header-perspective --> 
+        </div><!-- close grid container -->  
+    </header><!-- close header -->
+    
+    <div class="clear"></div>
+    
+	<!-- hero section -->
+    <section class="hero ha-waypoint parallax-section parallax-banner-1 parallax-background" data-animate-up="ha-header-hide" data-animate-down="ha-header-hide">
+        <div class="parallax-overlay parallax-overlay-1"></div> 
+    	<div class="grid-container">
+    		
+            <!-- hero holder -->
+            <div class="hero-holder grid-70 mobile-grid-100 tablet-grid-100">
+            	<div class="hero-inner">
+                    <img class ="hero-logo" src="http://s3-us-west-1.amazonaws.com/lahacks/mainLogoUpdated.png">
+
+                    <span class="lahacks-description">April 11-13 - Pauley Pavilion, UCLA</span>
+
+                    <div id="signup-container">
+                        <form method="post" action="/subscribe" id="signup">
+                            <div class="row">
+                                <div class="span5">
+                                    <input type="email" placeholder="Email" value="" name="email" class="signForm">
+                                </div>
+                                <div class="span1">
+                                    <input type="submit" value="Register" name="sign up" class="signUpButton">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="signup-finished" hidden>
+                        <span class="lahacks-description">Got it! We'll be in touch soon!</span>
+                    </div>
+                    
+                    <!-- social network -->
+                    <ul class="social-network" >
+                        <li class="facebook grid-50 tablet-grid-50 mobile-grid-50">
+                            <a class="social-link" href="http://facebook.com/lahacks" target="_blank" style="opacity:1">
+                            <span class="social-icon"><i class="icon-facebook icon-2x"></i></span>
+                            <h3 class="social-title">Facebook</h3>
+                            </a>
+                        </li>
+                        <li class="twitter grid-50 tablet-grid-50 mobile-grid-50">
+                            <a class="social-link" href="http://twitter.com/lahacks" target="_blank" style="opacity:1">
+                            <span class="social-icon"><i class="icon-twitter icon-2x"></i></span>
+                            <h3 class="social-title">Twitter</h3> 
+                            </a>
+                        </li>
+                    </ul><!-- close social network -->
+
+                    <span class="btn-holder"><a id="to-about-section" class="hero-btn"><img src="http://s3-us-west-1.amazonaws.com/lahacks/arrow-down.png"></a></span>
+                <!-- Bitcoin Stuff -->
+                <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100" style="padding-bottom:25px; padding-top:25px">
+                    <header class="section-header" style="padding-bottom:0px">
+                        <a class="coinbase-button" data-code="d12ab3a8a6eecd010deb6ffea46d8d27" data-button-style="donation_large" href="https://coinbase.com/checkouts/d12ab3a8a6eecd010deb6ffea46d8d27">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+                    </header>
+                </div>
+                <!-- End Bitcoin Stuff -->
+                </div>
+            </div><!-- close hero-holder -->    													
+    	</div>
+    </section><!-- close hero section -->
+    
+    <div class="clear"></div>
+   
+    <div id="main-content" class="wrap">
+    
+    <!-- sponsor section -->
+    <div class="nav-waypoint">
+    <section id="team-section" class="team-section content-section ha-waypoint" data-animate-up="ha-header-hide" data-animate-down="ha-header-small">
+        <div class="grid-container">
+    
+            <!-- section header -->
+            <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100" style="padding-bottom:25px">
+                <header class="section-header" style="padding-bottom:0px">
+                    <h2>Want to organize a bus to LA Hacks from your school? <a href="#contact-section">Contact us!</a></h2>
+                </header>
+            </div>
+            <!-- close section header -->
+
+            <!-- SPONSOR HEADER -->
+            <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100" style="margin-top:40px">
+                <header class="section-header">
+                    <h2 class="section-title"><span>Sponsored By</span></h2>
+                </header>
+            </div>
+            <!-- close section header -->
+            
+            <div class="clear"></div>
+            
+        <!-- PARTNER -->
+
+            <!-- QUIXEY -->
+            <a href="http://quixey.com">
+                <div class="member-box grid-100 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="height:175px; background-image:url(images/quixey.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+            
+        <!-- PLATINUM -->
+
+        <!-- GOLD -->
+
+            <!-- PRIVATE INTERNET ACCESS -->
+            <a href="http://privateinternetaccess.com"> 
+                <div class="member-box grid-33 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url('images/pia.png')">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+            
+            <!-- NEXTDOOR -->
+            <a href="http://nextdoor.com">
+                <div class="member-box grid-33 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url('images/nextdoor.png')">
+                <div class="member-box"></div>
+
+            </div>
+            </a><!-- close sponsor -->
+            
+            <!-- BLOOMBERG -->
+            <a href="http://bloomberg.com">
+                <div class="member-box grid-33 mobile-grid-100 tablet-grid-50"> 
+                    <figure class="member-photo" style="background-image:url('images/bloomberg.jpg')">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+            
+        <!-- SILVER -->
+
+            <!-- LIGHTSPEED -->
+            <a href="http://lsvp.com">
+                 <div class="member-box grid-25 mobile-grid-100 tablet-grid-50"> 
+                    <figure class="member-photo" style="background-image:url('images/Lightspeed.jpg')">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+            
+            <!-- GENERAL ASSEMBLY -->
+            <a href="http://generalassemb.ly"> 
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/ga.jpg)">
+                    <div class="member-box"></div>
+            </div>
+            </a><!-- close sponsor -->
+            
+             <!-- PROGRESS -->
+            <a href="http://progress.com"> 
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/progress.jpg)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+            
+             <!-- MASHERY -->
+            <a href="http://mashery.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50"> 
+                    <figure class="member-photo" style="background-image:url(images/mashery.jpg)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- RDIO -->
+            <a href="http://rdio.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50"> 
+                    <figure class="member-photo" style="background-image:url(images/rdio.jpg)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- MONGO -->
+            <a href="http://mongodb.org"> 
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/mongo.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- SENDGRID -->
+            <a href="http://scopely.com"> 
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/sendgrid.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- NAMECHEAP -->
+            <a href="http://namecheap.com"> 
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/namecheap.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- TWILIO -->
+            <a href="http://twilio.com"> 
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/twilio.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- FIREBASE-->
+            <a href="http://firebase.com"> 
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">                
+                    <figure class="member-photo" style="background-image:url(images/firebase.jpg)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- GUMROAD -->
+            <a href="http://gumroad.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50"> 
+                    <figure class="member-photo" style="background-image:url(images/gumroad.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+        <!-- BRONZE -->
+
+            <!-- COINBASE -->
+            <a href="http://coinbase.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">                 
+                    <figure class="member-photo" style="background-image:url('images/coinbase.png')">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- UPSTART -->
+            <a href="http://upstart.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50"> 
+                    <figure class="member-photo" style="background-image:url('images/upstart.png')">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- LOB -->
+            <a href="http://lob.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/lob.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- CHALLENGEPOST -->
+            <a href="http://challengepost.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/challengepost.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- A16Z -->
+            <a href="http://a16z.com"> 
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/a16z.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- CROSS CAMPUS -->
+            <a href="http://crosscampus.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(http://s3-us-west-1.amazonaws.com/lahacks/sponsors/cc.png)">
+                    <div class="member-box"></div>
+            </div>
+            </a><!-- close sponsor -->
+
+            <!-- READYFORCE -->
+            <a href="http://readyforce.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(http://s3-us-west-1.amazonaws.com/lahacks/sponsors/rf.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- GREYLOCK -->
+            <a href="http://greylock.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(http://s3-us-west-1.amazonaws.com/lahacks/sponsors/greylock.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- MUCKER CAPITAL -->
+            <a href="http://muckercapital.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/mucker.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- TAG -->
+            <a href="http://tagcontacts.co">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/tag.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- ONE -->
+            <a href="http://whatis1.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/one.jpg)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <!-- ONE -->
+            <a href="http://finish.com">
+                <div class="member-box grid-25 mobile-grid-100 tablet-grid-50">
+                    <figure class="member-photo" style="background-image:url(images/finish.png)">
+                    <div class="member-box"></div>
+                </div>
+            </a><!-- close sponsor -->
+
+            <div class="clear"></div>
+
+        </div><!-- close grid-container -->  
+    </section><!-- close sponsor section -->
+            
+    <div class="clear"></div>
+    
+       <!-- Counter Section -->
+    <section id="counter-section" class="counter-section parallax-section parallax-banner-6 parallax-background">
+        <div class="parallax-overlay parallax-overlay-6"></div>
+        <div class="grid-container parallax-content">
+            <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100">
+            
+            <!-- parallax header -->
+            <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+                <header class="parallax-header">
+                    <h2 class="parallax-title"><span>The Hackathon of The West Coast</span></h2>
+                    <p class="parallax-slogan">For one weekend, we're turning the legendary  <strong>Pauley Pavilion</strong> at <strong>UCLA</strong> into a hacker's paradise:</p>
+                </header>
+            </div>
+            <!-- close parallax header -->
+            
+            <!-- counter box 2 -->
+            <div class="grid-33 mobile-grid-100 tablet-grid-25">
+                <div class="counter-box counter" data-counter="36">
+                    <span class="count">36</span>
+                    <h3 class="counter-details">Hours of Hacking</h3>
+                </div>
+            </div><!-- close counter box -->
+            
+            <!-- counter box 3 -->
+            <div class="grid-33 mobile-grid-100 tablet-grid-25">
+                <div class="counter-box counter" data-counter="0">
+                    <span class="count">0</span>
+                    <h3 class="counter-details">Cost to Attend</h3>
+                </div>
+            </div><!-- close counter box -->
+            
+            <!-- counter box 4 -->
+            <div class="grid-33 mobile-grid-100 tablet-grid-25">
+                <div class="counter-box counter" data-counter="20000">
+                    <span class="count">20000</span>
+                    <h3 class="counter-details">in Cash Prizes</h3>
+                </div>
+            </div><!-- close counter box -->
+    
+            </div><!-- close grid-100 -->
+        </div><!-- close grid container -->
+    </section><!-- close parallax banner 3-->
+    
+    </div><!-- close nav-waypoint -->
+    
+    <div class="clear"></div>
+    
+
+        <!-- FAQ section -->
+    <div class="nav-waypoint">
+    <section id="about-section" class="team-section content-section">
+        <div class="grid-container">
+            
+            <!-- section header -->
+            <div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+                <header class="section-header" style="padding:0px">
+                    <h2 class="section-title"><span>FAQ</span></h2>
+                    <p class="section-slogan">LA Hacks is the premiere hackathon hosted at <strong>University of California Los Angeles</strong>. Hackers representing America's top universities will compete for over $20,000 in prizes.</p>
+                </header>
+            </div>
+            <!-- close section header -->
+
+            <div class="grid-25 tablet-grid-100 mobile-grid-100 about-box">
+                <div class="about-box">
+                    <h3>What is a Hackathon?</h3>
+                    <p>LA Hacks is a student competition to build the most exciting technology products within 36 hours. Products are then judged by professionals in the tech industry. Check out <a href="http://medium.com/hackathons-anonymous/92668579601">this blog post</a> by hackathon guru Dave Fontenot to learn more.</p>
+                </div>
+            </div>
+            
+            <div class="grid-25 tablet-grid-100 mobile-grid-100 about-box">
+                <div class="about-box">
+                    <h3>Who can attend?</h3>
+                    <p>LA Hacks focuses primarily on undergraduate students but accepts high school students on a case-by-case basis.</p>
+                </div>
+            </div>
+            
+            <div class="grid-25 tablet-grid-100 mobile-grid-100 about-box">
+                <div class="about-box">
+                    <h3>How much does it cost to attend?</h3>
+                    <p>Admission is free for hackers, NO “STRINGS” ATTACHED! (You’ll get that on the bus ride over) That includes food and drinks for the duration of the hackathon including transportation for those taking LA Hacks sponsored busses. Buses will pick up from a designated spot at each school and perform drop off at the end of the event. We will be reimbursing each chosen applicants flying in from out-of-state $200.</p>
+                </div>
+            </div>
+            
+            <div class="grid-25 tablet-grid-100 mobile-grid-100 about-box">
+                <div class="about-box">
+                    <h3>What can my team build?</h3>
+                    <p>Whatever computer-related projects your mind can come up with! Web, desktop, mobile, and hardware projects are all welcome. Projects will be judged based on creativity, technical difficulty, polish, and usefulness.</p>
+                </div>
+            </div>
+            
+        </div><!-- close grid-container -->
+        <div class="grid-container">
+            
+            <div class="grid-25 tablet-grid-100 mobile-grid-100 about-box">
+                <div class="about-box">
+                    <h3>How big are teams?</h3>
+                    <p>Teams should be at most 4 people total. You can compete alone, but that’s a lot less fun. We'll have a site up to help find teams before the event, and you'll have time at the start to meet others to join teams.</p>
+                </div>
+            </div>
+            
+            <div class="grid-25 tablet-grid-100 mobile-grid-100 about-box">
+                <div class="about-box">
+                    <h3>Are we allowed to build on past projects or code?</h3>
+                    <p>No. All hacks must begin at the event with no prior code written. Using third-party APIs and libraries is definitely okay, as long as they're accessible by everyone else as well. Our judges are experts, they know what’s possible in 36 hours.</p>
+                </div>
+            </div>
+            
+            <div class="grid-25 tablet-grid-100 mobile-grid-100 about-box">
+                <div class="about-box">
+                    <h3>What should I bring?</h3>
+                    <p>All attendees are required to bring their valid student ID for admission (name must match Eventbrite registration) and a laptop for hacking (which includes charger and all). If you want to do a hardware hack, don't forget to bring the devices you plan on working with. Additionally, bring sleeping bags (if you can’t hang) and toiletry materials.</p>
+                </div>
+            </div>
+            
+            <div class="grid-25 tablet-grid-100 mobile-grid-100 about-box">
+                <div class="about-box">
+                    <h3>How do I officially register?</h3>
+                    <p>For now, put in your email above. We will be having EventBrite registrations soon which will be the official tickets in the door.</p>
+                </div>
+            </div>
+
+
+        </div><!-- close grid-container -->
+    </section><!-- close about section -->
+    <div class="clear"></div>
+    
+    <div class="clear"></div>
+    
+     <!-- contact section -->
+     <div class="nav-waypoint">
+     <section id="contact-section" class="contact-section parallax-section parallax-banner-5 parallax-background">
+     <div class="parallax-overlay parallax-overlay-5"></div><!-- parallax overlay -->
+		<div class="grid-container parallax-content">
+        
+            	<!-- parallax header -->
+            	<div class="grid-70 prefix-15 mobile-grid-100 tablet-grid-100">
+                    <header class="parallax-header">
+                        <h2 class="parallax-title"><span>Contact us</span></h2>
+                        <p class="parallax-slogan">Get in touch with the <strong>LA Hacks</strong> team!</p>
+                    </header>
+                </div>
+            	<!-- close parallax header -->
+            
+            <div class="clear"></div>
+            
+            <!-- contact wrap -->
+            <div class="grid-100 mobile-grid-100 tablet-grid-100">
+        	<div class="contact-wrap">
+            
+            <!-- contact form -->
+            <div class="grid-parent grid-100 mobile-grid-100 tablet-grid-100" style="margin:auto; max-width:100%">
+            <div class="contact-form-holder clearfix">
+          	
+            
+            <h3 class="grid-100">Drop us a line</h3>
+            
+            <!-- contact form -->
+            <form id="contact-form" class="contact-form" method="POST" action="/mail">
+            
+            	<ul class="grid-50">
+                
+                	<li><input id="name" class="name" type="text" name="name" placeholder="Name:"></li>
+                    <li><input id="email" class="email" type="email" name="email" placeholder="E-Mail:"></li>
+                    <li><input id="phone" class="phone" type="text" name="phone" placeholder="Phone:"></li>
+                    
+            	</ul>
+                
+                <ul class="grid-50">
+                    <li><textarea id="message" class="message" name="message" placeholder="Message:"></textarea></li>
+                </ul>
+                
+                <div class="grid-100">    
+                    <input id="send-btn" class="send-btn" type="submit" name="send-btn" value="Send">
+                    <div class="success-message">Email has been sent!</div>
+                    <div class="alert-message"></div>
+                    <div class="error-message">Email could not be delivered. Please try again later!</div>
+                </div>   
+              </form><!-- close contact form -->
+                    
+            </div>
+            </div><!-- close contact-form-holder -->
+            
+            </div>
+            </div><!-- close contact wrap -->
+            
+            
+		</div><!-- close container -->
+	</section><!-- close contact section -->
+    
+	</div><!-- close nav-waypoint -->
+    
+    <div class="clear"></div>
+    
+	<!-- Footer Section -->
+	<footer class="footer">
+    <a href="#top" class="toTop"><i class="icon-angle-up"></i></a>
+		<div class="grid-container">
+
+			<div class="grid-100 mobile-grid-100 tablet-grid-100">
+                <h5>Presented By</h5>
+                <div class="grid-container">
+
+                <!-- SEP Logo -->
+                <a href="http://ucla.sigmaetapi.com"> <div class="member-box grid-100 mobile-grid-100 tablet-grid-100">
+                    
+                    	<figure class="member-photo" style="background-image:url(http://s3-us-west-1.amazonaws.com/lahacks/sep.png); margin-bottom:0px; opacity: .9">
+                    
+                    <div class="member-box"></div>
+                </div></a><!-- close SEP -->
+
+            </div>
+
+            <div class="grid-100 mobile-grid-100 tablet-grid-100">
+                <h5>With Support From</h5>
+                <div class="grid-container">
+
+
+                <!-- BE Logo -->
+                <a href="http://bruinentrepreneurs.org"><div class="member-box grid-33 mobile-grid-100 tablet-grid-50">
+                   
+                        <figure class="member-photo" style="background-image:url(http://s3-us-west-1.amazonaws.com/lahacks/bruin_entrepreneurs.jpg)">
+                    
+                    <div class="member-box"></div>
+                </div></a><!-- close BE -->
+                
+
+                <!-- YC Logo -->
+                <a href="http://ycombinator.com"> <div class="member-box grid-33 mobile-grid-100 tablet-grid-50">
+                    
+                        <figure class="member-photo" style="background-image:url(http://s3-us-west-1.amazonaws.com/lahacks/ycombo.png); margin-bottom:0px; background-size:45%; opacity: .9; background-size:100%">
+                    
+                    <div class="member-box"></div>
+                </div></a><!-- close YC -->
+                
+                <!-- MLH Logo -->
+                <a href="http://mlh.io"><div class="member-box grid-33 mobile-grid-100 tablet-grid-50">
+                     
+                    	<figure class="member-photo" style="background-image:url(http://s3-us-west-1.amazonaws.com/lahacks/mlh.png); background-size:75%">
+                    
+                    <div class="member-box"></div>
+                </div></a><!-- close MLH -->
+
+                    
+            </div>
+
+                <!-- <span class="copyright">Design by <a href="http://twitter.com/foolywk" target="_blank">Brandon Foo</a></span> -->
+         	</div>
+		</div><!-- close container -->
+	</footer><!-- close footer -->
+</div>
+	
+    <!-- Load Javascript
+  	================================================== -->    
+	<script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.parallax.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+   	<script src="js/jquery.custom.js"></script>
+    
+<!-- End Document
+================================================== -->
+</body>
+</html>
