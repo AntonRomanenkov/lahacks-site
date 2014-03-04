@@ -32,6 +32,14 @@ LA HACKS ~ Brandon Foo and Yoav Zimmerman
 /* LAHacks additions
 ================================================== */
 
+button.register {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom:20px;
+	padding: 10px 80px;
+}
+
 .lahacks-description {
 	color:#FFFFFF;
 	font-size:18px;
