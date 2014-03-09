@@ -54,6 +54,46 @@ button.register {
 	text-rendering: optimizelegibility;
 }
 
+/* #Hackcamp Section
+================================================== */
+
+.hackcamp-section {
+	padding-bottom:110px;
+}
+.hackcamp-section .parallax-header {
+	padding-bottom:70px;
+}
+.hackcamp-box {
+	text-align:center;
+	border-width:5px;
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 25px;
+	border-color:rgba(80, 169, 231, 1);
+	background:rgba(80, 169, 231, 0.3);
+	padding:20px;
+}
+.hackcamp-details {
+	color:black;
+	margin:0;
+}
+
+.hack-count {
+	font-family:'ralewaysemibold',Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	line-height: 1.2;
+	padding: 0;
+	margin-bottom: 20px;
+	display:block;
+	color:rgba(80, 169, 231, 1);
+	text-transform: uppercase;
+}
+
+.hackcamp-logo {
+	max-height:300px;	
+}
+
+
+
 /* #General
 ================================================== */
 	
