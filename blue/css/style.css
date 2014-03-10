@@ -58,22 +58,22 @@ button.register {
 ================================================== */
 
 .hackcamp-section {
-	padding-bottom:110px;
+	padding-bottom:0px;
 }
 .hackcamp-section .parallax-header {
-	padding-bottom:70px;
+	padding-bottom:0px;
 }
 .hackcamp-box {
 	text-align:center;
 	border-width:5px;
-	box-shadow: 5px 5px 5px #888888;
-	border-radius: 25px;
+	/* box-shadow: 5px 5px 5px #888888; */
+	/* border-radius: 25px; */
 	border-color:rgba(80, 169, 231, 1);
 	background:rgba(80, 169, 231, 0.3);
 	padding:20px;
 }
 .hackcamp-details {
-	color:black;
+	color:white;
 	margin:0;
 }
 
@@ -990,11 +990,12 @@ img {
 }
 .parallax-banner-1 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley_crowd.jpg'); background-position: center center; }
 .parallax-banner-2 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley.jpg'); background-position: center center; }
-.parallax-banner-3 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/parallax-banner-3.jpg'); }
+.parallax-banner-3 { background:url('http://farm7.staticflickr.com/6091/6326306972_e540e79e5c_o.jpg'); }
 .parallax-banner-4 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/parallax-banner-4.jpg'); background-position:center bottom !important; }
 .parallax-banner-5 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley_outside.jpg'); }
 .parallax-banner-6 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley.jpg'); }
 .parallax-banner-7 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/404.jpg'); }
+.parallax-banner-hackcamp { background:url('http://farm7.staticflickr.com/6091/6326306972_e540e79e5c_o.jpg');}
 
 
 .parallax-overlay-1 { background-image: url('http://s3-us-west-1.amazonaws.com/lahacks/overlay-pattern.png'); }
