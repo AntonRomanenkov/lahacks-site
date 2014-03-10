@@ -475,7 +475,6 @@
 		
 		/* social section */
 		function animate_social() {
-				
 			$('.social-network .social-link').each(function( k ) {
 				
 				var el = $(this);
@@ -485,7 +484,6 @@
 				},  k * 50 );
 				
 			});
-		
 		}
 		
 		function animate_sections() {

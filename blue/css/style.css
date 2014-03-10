@@ -92,7 +92,19 @@ button.register {
 	max-height:500px;	
 }
 
-
+.hackcamp-social-link {
+	margin-bottom:0px;
+	display:block;
+}
+.js .hackcamp-social-link {
+	opacity:1;
+}
+.hackcamp-social-link,
+.hackcamp-social-link:visited,
+.hackcamp-social-link:hover,
+.hackcamp-social-link:active {
+	color:#FFFFFF;
+}
 
 /* #General
 ================================================== */
