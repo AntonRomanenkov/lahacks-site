@@ -89,7 +89,8 @@ button.register {
 }
 
 .hackcamp-logo {
-	max-height:500px;	
+	max-height:175px;
+	margin: 0 auto;	
 }
 
 .hackcamp-social-link {
