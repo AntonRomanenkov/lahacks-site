@@ -213,7 +213,7 @@
 		================================================== */
 		$('.portfolio-popup').magnificPopup({
 			type: 'image',
-			removalDelay: 500, //delay removal by X to allow out-animation
+			removalDelay: 100, //delay removal by X to allow out-animation
 			callbacks: {
 			beforeOpen: function() {
 				   this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
