@@ -62,12 +62,12 @@ button.register {
 }
 
 .hero-logo:hover {
-    -webkit-animation-name: rotate; 
-    -webkit-animation-duration: 2s; 
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-    -moz-animation-name: rotate; 
-    -moz-animation-duration: 2s; 
+    -moz-animation-name: rotate;
+    -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
 }
@@ -1019,7 +1019,7 @@ img {
 }
 .parallax-banner-1 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley_crowd.jpg'); background-position: center center; }
 .parallax-banner-2 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley.jpg'); background-position: center center; }
-.parallax-banner-3 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/kidshacking.jpg'); }
+.parallax-banner-3 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/kidshacking.png'); }
 .parallax-banner-4 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/parallax-banner-4.jpg'); background-position:center bottom !important; }
 .parallax-banner-5 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley_outside.jpg'); }
 .parallax-banner-6 { background:url('http://s3-us-west-1.amazonaws.com/lahacks/pauley.jpg'); }
