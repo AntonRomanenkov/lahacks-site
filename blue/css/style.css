@@ -54,6 +54,14 @@ button.register {
 	text-rendering: optimizelegibility;
 }
 
+.collapsed-overlay {
+	height: 0px;
+	overflow: visible;
+	position: relative;
+	pointer-events: none;
+	z-index: 1;
+}
+
 .hero-logo {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
@@ -411,7 +419,7 @@ img {
 	padding-top:20px;
 }
 
-.hero-logo {
+.hero-logo, .hero-logo-stationary {
 	width: 250px;
 }
 
@@ -1333,7 +1341,7 @@ textarea:focus {
 	background-image: none !important;
 }
 
-.hero-logo {
+.hero-logo, .hero-logo-stationary {
 	max-height:250px;
 }
 

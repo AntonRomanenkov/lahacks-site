@@ -30,12 +30,12 @@ app.use(app.router);
 // development only
 if (app.get('env') === 'development') {
    app.use(express.errorHandler());
-};
+}
 
 // production only
 if (app.get('env') === 'production') {
   // TODO
-}; 
+} 
 
 //mailchimp stuff
 app.post('/subscribe', api.subscribe);
